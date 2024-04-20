@@ -50,7 +50,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     display: inline;
-    background: url("images/newgate.jpeg") no-repeat  center fixed; 
+    background: url("images/newgate2.jpeg") no-repeat  center fixed; 
     background-size: contain;  
     overflow-x: hidden;
     top: 0;
@@ -2033,7 +2033,7 @@ video {
 @media (min-width:576px) and  (max-width:768px){
      body{
         top: 0;
-         background: url("images/newgate2.JPEG") no-repeat  fixed; 
+         background: url("images/2.JPEG") no-repeat  fixed; 
          background-size: cover;
     }
     h2{
@@ -2055,7 +2055,7 @@ video {
 @media (min-width:768px){
      body{
         top: 0;
-         background: url("images/newgate.JPEG") no-repeat  fixed; 
+         background: url("images/newgate1.JPG") no-repeat  fixed; 
          background-size: cover;
     }
 }
