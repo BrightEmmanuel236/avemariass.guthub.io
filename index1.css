@@ -50,7 +50,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     display: inline;
-    background: url("images/newgate.JPEG") no-repeat  center fixed; 
+    background: url("images/newgate.jpeg") no-repeat  center fixed; 
     background-size: contain;  
     overflow-x: hidden;
     top: 0;
