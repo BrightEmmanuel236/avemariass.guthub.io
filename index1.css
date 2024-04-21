@@ -1493,7 +1493,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
         color: red;
     }
 }
-}
+
 .slideshow-container{
     max-width: 1000px;
     position: relative;
@@ -1934,7 +1934,7 @@ video {
 @media only screen and (max-width: 576px) {
     body{
         top: 0;
-         background: url("images/newgate4.jpg") no-repeat  fixed; 
+         background: url("images/newgate4.jpeg") no-repeat  fixed; 
          background-size: contain;
     }
    .dropdown1:hover>.dropdown-menu {
@@ -2033,7 +2033,7 @@ video {
 @media (min-width:576px) and  (max-width:768px){
      body{
         top: 0;
-         background: url("images/2.JPEG") no-repeat  fixed; 
+         background: url("images/newgate1.jpg") no-repeat  fixed; 
          background-size: cover;
     }
     h2{
