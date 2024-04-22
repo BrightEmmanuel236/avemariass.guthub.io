@@ -2055,7 +2055,7 @@ video {
 @media (min-width:768px){
      body{
         top: 0;
-         background: url("images/newgate1.JPG") no-repeat  fixed; 
+         background: url("images/homeimage.jpg") no-repeat  fixed; 
          background-size: cover;
     }
 }
