@@ -13,6 +13,29 @@
         <link rel="icon" type="image/x-icon" href="images/logo.jpg">
 <!-----Animate link Github---->
          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+         <style>
+          .payment-button {
+            display: inline-block;
+            padding: 5px 9px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            background-color: #700505;
+            border-radius: 5px;
+            cursor: pointer;
+            padding-top: 1px;
+            padding-bottom: 0%;
+            margin-bottom: 20px;
+            
+          }
+          .payment-button:hover {
+            background-color: #751a03;
+            color: yellow;
+           
+          }
+        </style>
+
         </head>
 <body>
     <!-----floating button--->
@@ -30,6 +53,9 @@
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page"href="index.html">Home</a>
                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="About.html">AboutUs</a>
+                        </li>
                         <li class="nav-item ">
                           <a class="nav-link "  href="Academics.html" >Academics</a>
                         </li>
@@ -39,9 +65,7 @@
                           <li class="nav-item">
                           <a class="nav-link" href="gallery.html">Media & Gallery</a>
                           </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="About.html">About Us</a>
-                        </li>
+                       
 					   <li class="nav-item dropdown">
 						  <a class="nav-link dropdown-toggle nav-link"  aria-current="page" href="Students.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							Portal
@@ -67,16 +91,21 @@
    
      
    
-    <div class="container-fluid">
+    <div class="container-fluid"> 
+      
         
     	<div class="carousel slide " data-bs-ride="carousel" id="carousel2">
+        
 		<div class="carousel-indicators">
+     
 			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carousel2" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carousel2" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carousel2" type="button"></button>
             <button aria-label="Slide 3" data-bs-slide-to="3" data-bs-target="#carousel2" type="button"></button>
             <button aria-label="Slide 3" data-bs-slide-to="4" data-bs-target="#carousel2" type="button"></button>
             <button aria-label="Slide 4" data-bs-slide-to="5" data-bs-target="#carousel2" type="button"></button>
             <button aria-label="Slide 5" data-bs-slide-to="6" data-bs-target="#carousel2" type="button"></button>
             <button aria-label="Slide 6" data-bs-slide-to="7" data-bs-target="#carousel2" type="button"></button>
+
+           
 		</div>
 		<div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
@@ -141,9 +170,11 @@
                     </div>
 
                    <div class="col-6">
-                      <h6 class="animated fadeInDown" style="animation-delay: 1s">2024  School Theme </h6>
-                      <p class="animated fadeInUp" style="animation-delay: 2s"><a href="theme.html" style="color: rgb(160, 232, 232);" > Read More</a></p>
-                   </div>
+                      <h6 class="animated fadeInDown" style="animation-delay: 1s">Pay Fees Online </h6>
+                      <button class="payment-button">
+                      <p class="animated fadeInUp" style="animation-delay: 2s"><a href="theme.html" style="color: rgb(160, 232, 232);" > Pay Here</a></p>
+                    </button>
+                    </div>
              </div>
            
           </div>
