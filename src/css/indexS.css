@@ -1426,7 +1426,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     
 }
 
-}
+
 .slideshow-container{
     max-width: 1000px;
     position: relative;
@@ -1510,7 +1510,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   font-size: 15px;
   transition: 0.4s;
 }
-.activ, .accordion:hover {
+.active, .accordion:hover {
   background-color: maroon;
 }
 
