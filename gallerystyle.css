@@ -571,7 +571,7 @@ img.mfp-img {
 
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

@@ -155,7 +155,7 @@ html {
 
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1634,7 +1634,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     vertical-align: middle;
 }
  .news{
-        background-color: #8B0000;
+        background-color: #410808;
         color: white;
         position:absolute; 
         top: 20%;
